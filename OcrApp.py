@@ -1,10 +1,7 @@
 from cv2 import cv2
 import pytesseract
 import os
-from tqdm import tqdm
-
-path_file = 'D:\\Cloud\\Pictures\\OCR\\'
-path_tess = 'C:\\Program Files\\Tesseract-OCR\\'
+from config import path_file, path_tess
 
 pytesseract.pytesseract.tesseract_cmd = path_tess+'tesseract.exe'
 
