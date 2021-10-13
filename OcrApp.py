@@ -37,3 +37,7 @@ for i in range(len(dir_ocr)):
 # #img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 # # cv2.imshow('Result', img)
 # # cv2.waitKey(0)
+
+# #img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+# # cv2.imshow('Result', img)
+# # cv2.waitKey(0)
